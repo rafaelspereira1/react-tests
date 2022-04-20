@@ -1,0 +1,22 @@
+{
+  "name": "react-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rafaelspereira1/react-tests.git",
+  "author": "Rafael Pereira <rafaelspereira1@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
